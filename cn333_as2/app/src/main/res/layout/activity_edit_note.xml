@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditNote">
+
+
+    <EditText
+        android:id="@+id/title_text"
+        android:layout_width="354dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="29dp"
+        android:ems="10"
+        android:hint="note title"
+        android:inputType="textPersonName"
+        android:textColorHint="#78909C"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back_bt" />
+
+    <EditText
+        android:id="@+id/body_text"
+        android:layout_width="391dp"
+        android:layout_height="502dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="11dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="body"
+        android:inputType="textMultiLine|textCapSentences"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_text" />
+
+    <Button
+        android:id="@+id/back_bt"
+        android:layout_width="74dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="11dp"
+        android:text="back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/save_bt"
+        android:layout_width="74dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="6dp"
+        android:text="save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Edit  Note"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
