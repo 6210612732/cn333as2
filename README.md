@@ -11,4 +11,4 @@
 # Extra Funtionalities
 1. มีปุ่ม back ไว้กดออกเมื่อไม่ต้องการบันทึกโน้ต
 
-[Demo](https://youtu.be/GoCWtVe98zE)
+[Demo](https://youtu.be/6tPiSku9Yt0)
